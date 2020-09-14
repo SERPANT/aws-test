@@ -5,6 +5,6 @@ const routes = require('./routes.js');
 
 app.use(cors());
 
-app.use('/api', routes);
+app.use('/', routes);
 
 module.exports = app;
